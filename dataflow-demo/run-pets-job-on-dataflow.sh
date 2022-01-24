@@ -1,5 +1,5 @@
 #! /bin/sh
-export REGION=us-central1
+export REGION=us-central
 
 python pets-job.py --input gs://$BUCKET/pets.txt \
 --output gs://$BUCKET/pets_job_results_out \
